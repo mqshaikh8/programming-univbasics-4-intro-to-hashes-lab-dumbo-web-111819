@@ -26,9 +26,16 @@ end
 
 def update_counting_hash(hash, key)
   if hash[key]
+<<<<<<< HEAD
     hash[key] += 1
   else
     hash[key] = 1 
   end
   hash
+=======
+    return hash[key] += 1
+  else
+    hash[key] = 1 
+  end
+>>>>>>> f41d4a56be3a658dbbdef74eb881b62cf9410903
 end
